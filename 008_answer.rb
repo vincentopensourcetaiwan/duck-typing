@@ -16,9 +16,9 @@ class VideoPlayer
   end
 end
 
-# media_player = MediaPlayer.new
-# audio_player = AudioPlayer.new
-# video_player = VideoPlayer.new
-#
-# puts media_player.play(audio_player)
-# puts media_player.play(video_player)
+media_player = MediaPlayer.new
+audio_player = AudioPlayer.new
+video_player = VideoPlayer.new
+
+puts media_player.play(audio_player)
+puts media_player.play(video_player)

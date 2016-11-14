@@ -22,11 +22,11 @@ class VideoMessenger
   end
 end
 
-# slack_messenger = SlackMessenger.new
-# text_messenger = TextMessenger.new
-# picture_messenger = PictureMessenger.new
-# video_messenger = VideoMessenger.new
-#
-# puts slack_messenger.message(text_messenger)
-# puts slack_messenger.message(picture_messenger)
-# puts slack_messenger.message(video_messenger)
+slack_messenger = SlackMessenger.new
+text_messenger = TextMessenger.new
+picture_messenger = PictureMessenger.new
+video_messenger = VideoMessenger.new
+
+puts slack_messenger.message(text_messenger)
+puts slack_messenger.message(picture_messenger)
+puts slack_messenger.message(video_messenger)

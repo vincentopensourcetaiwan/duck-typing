@@ -23,13 +23,13 @@ class CsvParser
 end
 
 
-# generic_parser = GenericParser.new
-#
-# xml_parser = XmlParser.new
-# puts generic_parser.parse(xml_parser)
-#
-# json_parser = JsonParser.new
-# puts generic_parser.parse(json_parser)
-#
-# csv_parser = CsvParser.new
-# puts generic_parser.parse(csv_parser)
+generic_parser = GenericParser.new
+
+xml_parser = XmlParser.new
+puts generic_parser.parse(xml_parser)
+
+json_parser = JsonParser.new
+puts generic_parser.parse(json_parser)
+
+csv_parser = CsvParser.new
+puts generic_parser.parse(csv_parser)
